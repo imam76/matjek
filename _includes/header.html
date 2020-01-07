@@ -35,7 +35,7 @@
   </head>
   <body>
     <header>
-      <nav class="top-nav teal">
+      <nav class="top-nav red darken-1">
         <div class="nav-wrapper">
           <div class="container">
             <a class="page-title" href="{{site.baseurl}}/">{{site.title}}</a>
@@ -50,17 +50,27 @@
       <ul id="slide-out" class="side-nav fixed">
         <li>
           <div class="userView">
-            <div class="background"></div>
-            <a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2" src="{{site.baseurl}}/assets/res/user.png"></a>
-            <span class="white-text name">{{site.user}}</span>
-            <span class="white-text email">{{site.user_email}}</span>
+            <!-- <div class="background"></div> -->
+            <a href="{{site.baseurl}}" ><img src="{{site.baseurl}}/assets/res/zahir.svg" style=" width: 125px; height: auto;"></a>
           </div>
         </li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons">home</i>Home</a></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Get started</a>
+              <div class="collapsible-body">
+                <ul>
+                  {% for post in site.posts %}
+                  <li><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
         <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons">description</i>Projects</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/tags"><i class="material-icons">label</i>Tags</a></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li>
         <li><div class="divider"></div></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons">person</i>About</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/contact"><i class="material-icons">email</i>Contact</a></li>

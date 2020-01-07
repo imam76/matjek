@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "This is Just Another Post"
+title:  "Input Text Field"
 date:   2017-03-25 01:30:13 +0800
-categories: default
-tags: test
+categories: component
+tags: form
 ---
 I have some text.
 

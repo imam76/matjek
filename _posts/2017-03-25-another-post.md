@@ -5,8 +5,8 @@ date:   2017-03-25 01:30:13 +0800
 categories: component
 tags: form
 ---
-
-![Input Text Field]({{site.baseurl}}"/assets/res/zahir.svg")
+<!-- cara panggil image -->
+![Input Text Field]({{site.baseurl}}/assets/res/zahir.svg)
 
 I have some text.
 

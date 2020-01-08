@@ -6,7 +6,7 @@ categories: component
 tags: form
 ---
 
-![Input Text Field]({{ site.baseurl }})
+![Input Text Field]({{site.baseurl}}/assets/res/zahir.svg)
 
 I have some text.
 

@@ -20,7 +20,6 @@ baseurl: "imam76"
 url: "https://imam76.github.io"
 permalink: /:year/:month/:day/:title
 repository: imam76/matjek
-paginate_path: "/blog/page:num/"
 paginate: 5
 
 # MatJek specific configurations

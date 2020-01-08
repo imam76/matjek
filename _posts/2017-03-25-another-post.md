@@ -5,6 +5,9 @@ date:   2017-03-25 01:30:13 +0800
 categories: component
 tags: form
 ---
+
+![Input Text Field]({{ site.baseurl }})
+
 I have some text.
 
 I want some _italics_.
